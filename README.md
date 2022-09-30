@@ -5,7 +5,7 @@ first: install virtualenviorment
 secodn: activate virtual enviorment
 clone this repository by typing “git clone https://github.com/PS-PRANAV4/SIMPLE_LIBRARY.git”
 
-third: install requirments
+third: install requirments "\n"
 
 	command – pip install -r requirment.txt
 
