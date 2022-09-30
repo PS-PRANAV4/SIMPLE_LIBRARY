@@ -68,7 +68,7 @@ To delete ebook
 	/delete-ebook/<int:id>
 	method – delete
 	params: id(id of ebook)
-	body – nil
+	body – nil <br />
 
 
 To search e-book
