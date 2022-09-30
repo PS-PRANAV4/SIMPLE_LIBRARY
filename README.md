@@ -20,14 +20,14 @@ To get access token <br />
 	params – nil <br />
 	body -  username, password <br />
  	sample - <br />
-		{
-			“username” – pranav,
-			“password” – 123
+		{ <br />
+			“username” : pranav, <br /> 
+			“password” : 123 <br />
 		} <br />
 after this a access token will be given use this and add it in header as given below to get authenticated into other view or else will get 401 error <br />
 
-sample - {
-		“Authorization”: “bearer <token>”
+sample - { <br />
+		“Authorization”: “bearer <token>” <br />
 	} <br />
 
 
@@ -45,13 +45,13 @@ To create ebook <br />
 	params – nil <br />
 	body -  Title,  Author, Genre, Review, Favorite(optional true or false) <br />
 	sample - <br />
-			{
+			{ <br />
 
-"Title": "welcome",
-"Author": "pranav",
-"Genre": "Fantasy",
-"Review": 2
-} <br />
+				"Title": "welcome", <br />
+				"Author": "pranav", <br />
+				"Genre": "Fantasy", <br />
+				"Review": 2 <br />
+			} <br />
 
 
 
@@ -60,7 +60,15 @@ To update ebook <br />
 	method – put <br />
 	params – nil <br />
 	body - 	Title(new Title or old Title),  Author(old Author or new Author), Genre(new Genre or old Genre), Review(new Review or old Review), Favorite(new or old) <br />
-
+	
+	sample -  <br />
+		{
+			"Title": "welcome", <br />
+			"Author": "pranav", <br />
+			"Genre": "Fantasy", <br />
+			"Review": 2 <br />
+		
+		}
 
 
 
@@ -69,16 +77,15 @@ To delete ebook <br />
 	method – delete <br />
 	params: id(id of ebook) <br />
 	body – nil <br /> 
-
-
+	
 To search e-book <br />
 	can enter a key and will match with every field and returns the value <br />
 	method – post <br />
 	params – nil <br />
 	body – details(key to search) <br />
 	sample - <br />
-		{
-			details:”p”
+		{ <br />
+			details:”p” <br />
 		} <br />
 
 	
