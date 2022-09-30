@@ -45,13 +45,13 @@ To create ebook <br />
 	params – nil <br />
 	body -  Title,  Author, Genre, Review, Favorite(optional true or false) <br />
 	sample - <br />
-			{ <br />
+			{ 
 
 				"Title": "welcome", <br />
 				"Author": "pranav", <br />
 				"Genre": "Fantasy", <br />
 				"Review": 2 <br />
-			} <br />
+			} 
 
 
 
