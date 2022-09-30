@@ -1,85 +1,85 @@
 # SIMPLE_LIBRARY
 
-#setingup project
-first: install virtualenviorment
-secodn: activate virtual enviorment
-clone this repository by typing “git clone https://github.com/PS-PRANAV4/SIMPLE_LIBRARY.git”
+#setingup project <br />
+first: install virtualenviorment <br />
+secodn: activate virtual enviorment <br />
+clone this repository by typing “git clone https://github.com/PS-PRANAV4/SIMPLE_LIBRARY.git” <br />
 
-third: install requirments "/n"
+third: install requirments <br />
 
-	command – pip install -r requirment.txt
+	command – pip install -r requirment.txt <br />
 
-runsever – python manage.py runserver
-now you are good to go no more changes needed everything is setup
+runsever – python manage.py runserver <br />
+now you are good to go no more changes needed everything is setup <br />
 
 
-#API DOCS
-To get access token
-	/api/ token
-	method- post
-	params – nil
-	body -  username, password
-	sample - 
+#API DOCS <br />
+To get access token <br />
+	/api/ token <br />
+	method- post <br />
+	params – nil <br />
+	body -  username, password <br />
+ 	sample - <br />
 		{
 			“username” – pranav,
 			“password” – 123
-		}
-after this a access token will be given use this and add it in header as given below to get authenticated into other view or else will get 401 error
+		} <br />
+after this a access token will be given use this and add it in header as given below to get authenticated into other view or else will get 401 error <br />
 
 sample - {
 		“Authorization”: “bearer <token>”
-	}
+	} <br />
 
 
-To get all ebooks
-	/get-all-ebooks 
-	method – get
-	params -nil
-	body -nil
+To get all ebooks <br />
+	/get-all-ebooks <br /> 
+	method – get <br />
+	params -nil <br />
+	body -nil <br />
 
 
 
-To create ebook
-	/create-ebook
-	method – post
-	params – nil
-	body -  Title,  Author, Genre, Review, Favorite(optional true or false)
-	sample -
+To create ebook <br />
+	/create-ebook <br />
+	method – post <br />
+	params – nil <br />
+	body -  Title,  Author, Genre, Review, Favorite(optional true or false) <br />
+	sample - <br />
 			{
 
 "Title": "welcome",
 "Author": "pranav",
 "Genre": "Fantasy",
 "Review": 2
-}
+} <br />
 
 
 
-To update ebook
-	/update-ebook
-	method – put
-	params – nil 
-	body - 	Title(new Title or old Title),  Author(old Author or new Author), Genre(new Genre or old Genre), Review(new Review or old Review), Favorite(new or old)
+To update ebook <br />
+	/update-ebook <br />
+	method – put <br />
+	params – nil <br />
+	body - 	Title(new Title or old Title),  Author(old Author or new Author), Genre(new Genre or old Genre), Review(new Review or old Review), Favorite(new or old) <br />
 
 
 
 
-To delete ebook
-	/delete-ebook/<int:id>
-	method – delete
-	params: id(id of ebook)
-	body – nil <br />
+To delete ebook <br />
+	/delete-ebook/<int:id> <br />
+	method – delete <br />
+	params: id(id of ebook) <br />
+	body – nil <br /> 
 
 
-To search e-book
-	can enter a key and will match with every field and returns the value
-	method – post
-	params – nil
-	body – details(key to search)
-	sample - 
+To search e-book <br />
+	can enter a key and will match with every field and returns the value <br />
+	method – post <br />
+	params – nil <br />
+	body – details(key to search) <br />
+	sample - <br />
 		{
 			details:”p”
-		}
+		} <br />
 
 	
 	
