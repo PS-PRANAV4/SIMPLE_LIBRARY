@@ -46,7 +46,6 @@ To create ebook <br />
 	body -  Title,  Author, Genre, Review, Favorite(optional true or false) <br />
 	sample - <br />
 			{ 
-
 				"Title": "welcome", <br />
 				"Author": "pranav", <br />
 				"Genre": "Fantasy", <br />
