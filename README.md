@@ -26,7 +26,7 @@ To get access token <br />
 		} <br />
 after this a access token will be given use this and add it in header as given below to get authenticated into other view or else will get 401 error <br />
 
-sample - 
+sample - <br />
 	{ <br />
 		“Authorization”: “bearer <token>” <br />
 	} <br />
@@ -45,7 +45,7 @@ To create ebook <br />
 	method – post <br />
 	params – nil <br />
 	body -  Title,  Author, Genre, Review, Favorite(optional true or false) <br />
-	sample - <br />
+	sample - 
 			{ 
 				"Title": "welcome", <br />
 				"Author": "pranav", <br />
