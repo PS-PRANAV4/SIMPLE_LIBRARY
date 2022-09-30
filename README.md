@@ -26,7 +26,8 @@ To get access token <br />
 		} <br />
 after this a access token will be given use this and add it in header as given below to get authenticated into other view or else will get 401 error <br />
 
-sample - { <br />
+sample - 
+	{ <br />
 		“Authorization”: “bearer <token>” <br />
 	} <br />
 
@@ -61,13 +62,12 @@ To update ebook <br />
 	body - 	Title(new Title or old Title),  Author(old Author or new Author), Genre(new Genre or old Genre), Review(new Review or old Review), Favorite(new or old) <br />
 	
 	sample -  <br />
-		{
-			"Title": "welcome", <br />
-			"Author": "pranav", <br />
-			"Genre": "Fantasy", <br />
-			"Review": 2 <br />
-		
-		}
+			{
+				"Title": "welcome", <br />
+				"Author": "pranav", <br />
+				"Genre": "Fantasy", <br />
+				"Review": 2 <br />
+			}
 
 
 
