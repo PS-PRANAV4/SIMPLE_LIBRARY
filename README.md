@@ -28,7 +28,7 @@ after this a access token will be given use this and add it in header as given b
 
 sample - <br />
 	{ <br />
-		“Authorization”: “bearer <token>” <br />
+		“Authorization”: “bearer token” <br />
 	} <br />
 
 
